@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="margin: 0;">
+    
+    <style>
+        #headercontainer{
+            width: 100%;
+            height: 50px;
+            background-color: blue;
+            text-align: center;
+        }
+        #headercontainer span {
+            font-size: 30px;
+            color: brown;
+        }
+        .maincontainer label{
+            width: 30%;
+            height: 100px;
+            color: blue;
+            font-size: 30px;
+        }
+        .maincontainer input{
+            width: 30%;
+            height: 100px;
+            color: blueviolet;
+            font-size: 40px;
+            
+        }
+        .maincontainer ::placeholder{
+            width: 40%;
+            height: 100px;
+            color: black;
+            margin-bottom: 5px;
+        }
+      
+    
+    </style>
+    <header>
+        <div id="headercontainer">
+            <span>registracija</span>
+        </div>
+    </header>
+    <main> 
+        <div class="maincontainer">
+            <h1>unesite vase podatke</h1>
+            <form>
+                <label>ime</label><br>
+                <input type="text" placeholder="unesi svoje ime"><br>
+                <label >prezime</label><br>
+                <input type="text" placeholder="unesi svoje prezime"><br>
+                <label >broj</label><br>
+                <input type="number"><br>
+                <label >email</label><br>
+                <input type="text" placeholder="unesite vas email" type="email"><br>
+                <label >datum rodjenja</label><br>
+                <input type="date"><br>
+                <button id="moj button">registruj se</button>
+            </form>
+             
+        </div>
+    </main>
+    
+</body>
+
+</html>
